@@ -92,6 +92,15 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 
+math:
+  enable: true
+  per_page: true
+  engine: mathjax
+
+  mathjax:
+    enable: true
+    mhchem: true
+
 deploy:
   type: git
   repo: https://github.com/chuxuanqk/chuxuanqk.github.io.git
