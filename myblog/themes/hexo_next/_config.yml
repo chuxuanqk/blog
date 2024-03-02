@@ -254,7 +254,7 @@ post_wordcount:
 reward_comment: 您的支持是对我最大的鼓励
 alipay: /images/alipay.jpg
 wechatpay: /images/wechatpay.png	#图片链接或图片相对路径
-
+wechat_channle: /images/wechat_channle.png
 
 
 # Declare license on posts

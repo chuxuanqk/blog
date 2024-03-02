@@ -170,6 +170,16 @@
         </div>
       {% endif %}
 
+      {% if theme.wechatpay %}
+        <div class="wechat_channel">
+          <br>
+          <!-- 这里添加你的二维码图片 -->
+          <!--  <img src ="/images/wechatpay.png"> -->
+          <img src ="{{ theme.wechat_channle }}">
+          <!-- <span>公众号</span> -->
+        </div>
+      {% endif %}
+
     </div>
   </aside>
 {% endmacro %}
