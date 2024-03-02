@@ -111,10 +111,10 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
-scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+# scheme: Muse
+# scheme: Mist
+# scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -148,14 +148,17 @@ links_icon: link
 links_title: Links
 links_layout: block
 #links_layout: inline
-#links:
+links:
   #Title: http://example.com/
+  github: https://github.com/chuxuanqk
+
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 #avatar: /images/avatar.gif
-avatar: /images/apple-touch-icon-next.png
+# avatar: /images/apple-touch-icon-next.png
+avatar: /images/saber.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -217,7 +220,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -247,6 +250,12 @@ post_wordcount:
 #wechatpay: /images/wechatpay.jpg
 #alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
+
+reward_comment: 您的支持是对我最大的鼓励
+alipay: /images/alipay.jpg
+wechatpay: /images/wechatpay.png	#图片链接或图片相对路径
+
+
 
 # Declare license on posts
 post_copyright:
@@ -407,7 +416,7 @@ gitment:
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: # Force language, or auto switch by theme
+  language: zh-CN # Force language, or auto switch by theme
   github_user: # MUST HAVE, Your Github ID
   github_repo: # MUST HAVE, The repo you use to store Gitment comments
   client_id: # MUST HAVE, Github client id for the Gitment
@@ -605,7 +614,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -743,6 +752,11 @@ vendors:
   # Internal version: 1.9.7
   # See: https://github.com/tuupola/jquery_lazyload
   lazyload:
+  enable: true
+  onlypost: false # optional
+  loadingImg: # optional eg ./images/loading.gif
+  isSPA: true # optional
+  # preloadRatio: 3 # optional, default is 1
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org

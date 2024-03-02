@@ -1,12 +1,10 @@
 ---
 title:  Markdown数学公式语法
 date: 2020-03-11 11:41:10
+categories: 
 tags:
-
 - 博客           //多个标签可以这样添加
 - hexo
-categories: Markdown
-
 ---
 
 本篇为Hexo示例文档.  # 这里是摘要部分,写1~2句话,就实现不全显示博文了..

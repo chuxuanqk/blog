@@ -39,7 +39,8 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+# post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -100,6 +101,13 @@ math:
   mathjax:
     enable: true
     mhchem: true
+
+# 本地搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 deploy:
   type: git
