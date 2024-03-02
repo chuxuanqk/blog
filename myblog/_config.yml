@@ -10,7 +10,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-#url: http://yoursite.com
+url: https://chuxuanqk.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -108,6 +108,17 @@ search:
   field: post
   format: html
   limit: 10000
+
+# 谷歌、百度站点地图生成
+Plugins:
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
+
+baidusitemap:
+    path: baidusitemap.xml
+
+sitemap:
+    path: sitemap.xml
 
 deploy:
   type: git

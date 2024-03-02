@@ -60,3 +60,5 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 [hexo 相关配置](https://hexo.course.90byte.com/)
 [Hexo日历插件](https://zhuanlan.zhihu.com/p/363300921)
 [Github+Hexo一站式部署个人博客](https://www.cnblogs.com/chloneda/p/hexo.html)
+[hexo 添加站点地图](https://www.cnblogs.com/mmzs/p/10385822.html)
+
